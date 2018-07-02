@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<title></title>
+		<!--<link rel="stylesheet" href="css/bootstrap.css" />-->
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<!--top-->
+		<div id="top">
+			<div class="top-con">
+				<div class="bl">
+					<div class="text">百联集团旗下全渠道电商平台</div>
+					<b></b>
+				</div>
+				<div class="top-left">
+					<a href="javascript:;">
+						<span>网站导航</span>
+						<i></i>
+					</a>
+				</div>
+				<div class="msg">
+					<a href="#">消息</a>
+				</div>
+				<div class="top-right">
+					<ul>
+						<li class="user-login">
+							<i></i>
+						</li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--header-->
+		<div class="header-con"></div>
+		<!--nevigate-->
+		<div class="nevigate-con">
+			<div class="nav-show"></div>
+		</div>
+		<!--banner-->
+		<div id="banner">
+			<div class="banner-con">
+				<div class="banner-right"></div>
+			</div>
+		</div>
+		<!--czt-->
+		<div class="czt-con">
+			<div class="czt-left"></div>
+			<div class="czt-right"></div>
+		</div>
+		<!--new-tm-->
+		<div class="new-tm-con">
+			<div class="new-tm-left"></div>
+			<div class="new-tm-right"></div>
+		</div>
+		<!--floor1-->
+		<div class="floor1-con">
+			<h3 class="floor1-txt">生鲜果蔬</h3>
+			<div class="floor1-left"></div>
+			<div class="floor1-right"></div>
+		</div>
+		<!--floor2-->
+		<div class="floor2-con">
+			<h3 class="floor1-txt">食品饮料酒</h3>
+			<div class="floor1-left floor2-left"></div>
+			<div class="floor1-right floor2-right"></div>
+		</div>
+		<!--floor3-->
+		<div class="floor3-con">
+			<h3 class="floor1-txt">时尚大牌</h3>
+			<div class="floor1-left floor3-left"></div>
+			<div class="floor1-right floor3-right"></div>
+		</div>
+		<!--floor4-->
+		<div class="floor4-con">
+			<h3 class="floor1-txt">精品百货</h3>
+			<div class="floor1-left floor4-left"></div>
+			<div class="floor1-right floor4-right"></div>
+		</div>
+		<!--floor5-->
+		<div class="floor5-con">
+			<h3 class="floor1-txt">个护清洁</h3>
+			<div class="floor1-left floor5-left"></div>
+			<div class="floor1-right floor5-right"></div>
+		</div>
+		<!--floor6-->
+		<div class="floor6-con">
+			<h3 class="floor1-txt">母婴玩具</h3>
+			<div class="floor1-left floor6-left"></div>
+			<div class="floor1-right floor6-right"></div>
+		</div>
+		<!--floor7-->
+		<div class="floor7-con">
+			<h3 class="floor1-txt">3C数码</h3>
+			<div class="floor1-left floor7-left"></div>
+			<div class="floor1-right floor7-right"></div>
+		</div>
+		<!--likes-->
+		<div class="likes-con"></div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bottom-con"></div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>

@@ -1,0 +1,225 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none;
+  color: #666; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*header*/
+#header {
+  height: 110px; }
+  #header .header-con {
+    width: 905px;
+    height: 110px;
+    margin: 0 auto; }
+    #header .header-con .logo1 {
+      float: left;
+      margin-top: 29px; }
+    #header .header-con .logo2 {
+      float: left;
+      margin-top: 29px; }
+
+/*footer*/
+#footer {
+  padding-top: 30px;
+  clear: both; }
+  #footer .footer-con {
+    min-width: 950px;
+    _width: 950px;
+    margin: 0 auto; }
+    #footer .footer-con .footer-nav {
+      line-height: 24px;
+      text-align: center;
+      padding-top: 10px;
+      color: #ccc; }
+      #footer .footer-con .footer-nav a:hover {
+        color: #ff6f6f; }
+      #footer .footer-con .footer-nav span {
+        padding: 0 10px; }
+      #footer .footer-con .footer-nav .copyright {
+        color: #999; }
+    #footer .footer-con .footer-contact {
+      line-height: 20px;
+      text-align: center;
+      color: #999999;
+      padding: 10px 0px; }
+
+/*login*/
+#login {
+  padding: 30px 0 25px 0;
+  background: url(../images/login-body.jpg) no-repeat center bottom; }
+  #login .login-con {
+    width: 488px;
+    border: 6px solid #e2e2e2;
+    background: #fff;
+    margin: 0 auto; }
+    #login .login-con .login-center {
+      width: 300px;
+      margin: 0 auto;
+      padding: 45px 0;
+      position: relative; }
+      #login .login-con .login-center .login-title {
+        height: 50px;
+        line-height: 45px; }
+        #login .login-con .login-center .login-title .login-vip {
+          height: 45px;
+          float: left;
+          font-size: 18px;
+          color: #000; }
+        #login .login-con .login-center .login-title .login-register {
+          float: right;
+          color: #0088cc; }
+        #login .login-con .login-center .login-title .login-register:hover {
+          text-decoration: underline; }
+      #login .login-con .login-center .login-clue {
+        min-height: 10px;
+        _height: 10px; }
+        #login .login-con .login-center .login-clue .login-prompt {
+          width: 290px;
+          height: 24px;
+          position: relative;
+          margin-top: 5px;
+          border: 1px solid #fde9bd;
+          padding: 0px 5px;
+          background: #fffdf0;
+          line-height: 24px;
+          color: #e6133c;
+          font-size: 12px; }
+          #login .login-con .login-center .login-clue .login-prompt i {
+            margin-top: 4px;
+            float: left; }
+          #login .login-con .login-center .login-clue .login-prompt span {
+            float: left;
+            margin-left: 8px; }
+      #login .login-con .login-center .login-item {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        position: relative; }
+        #login .login-con .login-center .login-item .login-name {
+          width: 250px;
+          height: 34px;
+          padding-left: 35px;
+          vertical-align: middle;
+          color: #000;
+          padding-right: 15px;
+          border: 1px solid #cccccc; }
+        #login .login-con .login-center .login-item .login-name:hover {
+          box-shadow: 0px 0px 6px 1px #ccc; }
+        #login .login-con .login-center .login-item i {
+          position: absolute;
+          left: 10px;
+          top: 10px; }
+      #login .login-con .login-center #verification input {
+        width: 140px !important;
+        float: left;
+        height: 34px;
+        background: #fff;
+        border: 1px solid #ccc;
+        padding-left: 35px;
+        padding-right: 12px; }
+      #login .login-con .login-center #verification .verifyCode {
+        width: 100px;
+        height: 36px;
+        margin-left: 10px;
+        float: left;
+        background: pink; }
+      #login .login-con .login-center .login-font {
+        height: 30px;
+        padding-bottom: 10px;
+        line-height: 30px;
+        text-align: right; }
+      #login .login-con .login-center .login-font:hover a {
+        color: #0088cc;
+        text-decoration: underline; }
+      #login .login-con .login-center .login-btn {
+        width: 100%;
+        height: 36px;
+        color: #fff;
+        background: #e6133c;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border: 0;
+        cursor: pointer;
+        text-align: center; }
+      #login .login-con .login-center .login-btn:hover {
+        background: #fc0334; }
+      #login .login-con .login-center .longin-font-right {
+        height: 52px;
+        text-align: right;
+        line-height: 52px; }
+        #login .login-con .login-center .longin-font-right a {
+          padding-left: 23px;
+          background: url(../images/right-icon.png) no-repeat left; }
+        #login .login-con .login-center .longin-font-right a:hover {
+          color: #0088cc;
+          text-decoration: underline; }
+      #login .login-con .login-center .login-other {
+        height: 49px;
+        line-height: 49px; }
+        #login .login-con .login-center .login-other .other-login {
+          height: 24px;
+          border-bottom: 1px solid #dddddd;
+          text-align: center;
+          line-height: 49px; }
+          #login .login-con .login-center .login-other .other-login span {
+            background: #fff;
+            padding: 0px 15px;
+            color: #999;
+            line-height: 49px; }
+      #login .login-con .login-center .login-logo {
+        width: 320px;
+        margin-left: -10px;
+        margin-top: 10px;
+        height: 22px;
+        text-align: center; }
+        #login .login-con .login-center .login-logo a {
+          display: inline-block;
+          width: 66px;
+          height: 22px;
+          background: url(../images/login-cion-1.png) no-repeat center bottom;
+          text-align: center;
+          float: left;
+          margin: 0 0 10px 30px; }
+        #login .login-con .login-center .login-logo a:hover {
+          background-position: 0 0; }
+        #login .login-con .login-center .login-logo .logo2 {
+          background: url(../images/login-cion-2.png) no-repeat center bottom; }
+        #login .login-con .login-center .login-logo .logo3 {
+          background: url(../images/login-cion-3.png) no-repeat center bottom; }
+        #login .login-con .login-center .login-logo .logo4 {
+          background: url(../images/login-cion-4.png) no-repeat center bottom; }
+        #login .login-con .login-center .login-logo .logo5 {
+          background: url(../images/login-cion-5.png) no-repeat center bottom; }

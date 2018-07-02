@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<script>
+	var domain = {
+		main : "http://www.bl.com",
+		help : "http://help.bl.com",
+		passport : "https://passport.bl.com",
+		reg : "https://reg.bl.com",
+		my : "https://my.bl.com",
+		cart : "http://cart.bl.com",
+		fashion : "http://fashion.bl.com",
+		life : "http://life.bl.com",
+		product : "http://product.bl.com",
+		search : "http://search.bl.com",
+		qiang : "http://qiang.bl.com",
+		tuan : "http://tuan.bl.com",
+		order : "http://channel.bl.com",
+		js : "//res12.iblimg.com/respc-1",
+		image : "//res12.iblimg.com/respc-1",
+		chongzhi : "http://chongzhi.bl.com",
+		jiaofei : "http://jiaofei.bl.com",
+		coupon : "http://coupon.bl.com",
+		trade : "http://trade.bl.com",
+		promotion : "http://promotion.bl.com",
+		payment : "https://payment.bl.com",
+		cookie: ".bl.com",
+		dc1: "http://dc1.bl.com",
+		dt1: "http://dt1.bl.com",
+		httpsImg : "https://res12.iblimg.com/respc-1",
+		safe : "https://safe.bl.com",
+		s: "http://s.bl.com",
+		global : "http://global.bl.com",
+		dc2: "http://dc2.bl.com"
+	};
+
+	var jsonPageInfo = {
+		"pageId" : "",
+		"categoryId" : "",
+		"searchTerm" : "",
+		"searchResult" : "",
+		"exportAttributes" : ""
+	};
+	var pageInfoJson = '{"categoryId":"PC_Registration","exportAttributes":"","id":"tpa-01","pageId":"PC_登录页","searchResult":"","searchTerm":"","url":"user/login"}';
+	if (!(pageInfoJson == '' || pageInfoJson == null || pageInfoJson == undefined)) {
+		jsonPageInfo = eval("(" + pageInfoJson + ")");
+	}
+</script><html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<meta name="renderer" content="webkit">
+	<title>欢迎登录-百联</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="https://res12.iblimg.com/respc-1/resources/v3.0/css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="https://res13.iblimg.com/respc-1/resources/v3.0/css/input.css">
+	<link rel="stylesheet" type="text/css" href="https://res14.iblimg.com/respc-1/resources/v3.0/css/prompt.css">
+	<link rel="stylesheet" type="text/css" href="https://res15.iblimg.com/respc-1/resources/v3.0/css/loginnew.css">
+	<link rel="stylesheet" type="text/css" href="https://res12.iblimg.com/respc-1/resources/v3.0/css/button.css">
+	<link rel="stylesheet" type="text/css" href="https://res13.iblimg.com/respc-1/resources/v3.0/css/loginheadeer.css">
+	<link rel="stylesheet" type="text/css" href="https://res14.iblimg.com/respc-1/resources/v3.0/css/loginfooter.css"/>
+</head>
+
+<body class="w960">
+<div class="header-height">
+    <div class="wrap">
+        <div class="header-logo">
+        	<div class="fl"><img id="goIndex" style="cursor:pointer;" src="https://res15.iblimg.com/respc-1/resources/v3.0/css/i/logon-logo.png"></div>
+            <div class="fl">
+            <img src="https://res12.iblimg.com/respc-1/resources/v3.0/css/i/logon-logofont.png">
+            	</div>
+        </div>
+    </div>
+</div>
+<div class="login-main">
+	<div class="login-content">
+    	<div class="login-mian-center">
+    		<ul>
+	    		<li style ="display:block;">
+		        	<div class="login-title">
+		            	<div class="login-title-fl">会员登录</div>
+		                <a href="javascript:void(0);" class="login-title-fr">注册新账号</a>
+		            </div>
+		            <div class="mheight">
+						<div class="prompt-show" style="display:none;">
+								<i>
+									<img width="16" height="16" src="https://res13.iblimg.com/respc-1/resources/v3.0/css/i/v-icon-2.png">
+								</i>
+							<span id="login_error_msg"></span>
+						</div>
+						<div class="prompt-show" id="capital" style="display:none;">
+							<i class="small"><img src="https://res14.iblimg.com/respc-1/resources/v3.0/css/i/pay-notice.png" width="14" height="14"></i>
+							<span class="black" id="login_warn_msg">键盘大小写锁定已打开，请注意大小写！</span>
+						</div>
+					</div>
+		            <div class="login-item clearfix">
+		            	<input id="loginId" name="loginId" class="inp inp-primary inp-primaryclick radius" placeholder="用户名/手机号/邮箱">
+		                <i class="newicon"><img src="https://res15.iblimg.com/respc-1/resources/v3.0/css/i/userpic.png"></i>
+		            </div>
+		            <div class="login-item clearfix">
+		            	<input id="password" name="password" class="inp inp-primary inp-primaryclick radius" placeholder="密码" type="password">
+		                <i class="newicon"><img src="https://res12.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png"></i>
+		            </div>
+		            <div id="isShowVerCode" class="login-item clearfix" style="display: none;">
+		            	<input id="verifyCode" placeholder="验证码" class="inp inp-primary inp-primaryclick radius input-w145">
+		                <i class="newicon">
+		                	<img width="16" height="16" src="https://res13.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png">
+		                </i>
+		                <div class="ml-img">
+		                	<img id="verifyCodeImg" width="100" height="36" src=""/>
+		                </div>
+		            </div>
+		            <div class="login-font">
+		            	<div class="fl">
+		            		</div>
+		            	<div class="fr">
+		            		<a href="https://safe.bl.com/fillInUser.html">忘记密码？</a>
+		            	</div>
+		            </div>
+		            <div>
+		            	<button id="loginsubmit" type="button" class="btn btn-login btn-primaryclick login-button btn-primary">登 录</button>
+		            </div>
+		            </li>
+	            <li style="display:none;">
+					<div class="login-title">
+						<div class="login-title-fl">BL-ECP账号登录</div>
+			            	</div>
+                    <div class="mheight">
+                    	<div class="prompt-show" id="ecp_capital" style="display:none;">
+							<i class="small"><img src="https://res14.iblimg.com/respc-1/resources/v3.0/css/i/pay-notice.png" width="14" height="14"></i>
+							<span class="black" >键盘大小写锁定已打开，请注意大小写！</span>
+						</div>
+                    </div>
+                    <div class="login-item clearfix">
+                        <input id="ecpLoginId" type="text" placeholder="用户名" class="inp inp-primaryclick radius inp-primary">
+                        <i class="newicon"><img src="https://res15.iblimg.com/respc-1/resources/v3.0/css/i/userpic.png"></i>
+                        <div class="prompt-show usepasshow" style="display: none;">
+                        	<i><img height="16" width="16" src="https://res12.iblimg.com/respc-1/resources/v3.0/css/i/v-icon-2.png"></i>
+                        	<span id="ecpLogin_error_msg">用户名和用户密码不匹配</span>
+                        </div>
+                    </div>
+                    <div class="login-item clearfix">
+                        <input id="ecpPassWord" type="password" placeholder="密码" class="inp inp-primaryclick radius inp-primary">
+                        <i class="newicon"><img height="16" width="16" src="https://res13.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png"></i>
+                    </div>
+                    <div name="verCodeDiv" class="login-item clearfix" style="display: none;">
+		            	<input id="ecpVerifyCode" placeholder="验证码" class="inp inp-primary inp-primaryclick radius input-w145">
+		                <i class="newicon">
+		                	<img width="16" height="16" src="https://res14.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png">
+		                </i>
+		                <div class="ml-img">
+		                	<img id="ecpVerifyCodeImg" width="100" height="36" src=""/>
+		                </div>
+		            </div>
+                    <div class="mt20"><button id="ecpLoginsubmit" class="btn btn-login btn-primaryclick login-button btn-primary" type="button">授权并登录</button></div>
+                    <div class="pt20-font"><a href="javascript:;">&lt; 返回使用百联通账号登录</a></div>
+                    </li>
+				<li style="display:none;">
+                    <div class="login-title">
+                        <div class="login-title-fl">百联E城账号登录</div>
+                    </div>
+                    <div class="mheight">
+                    	<div class="prompt-show" id="ble_capital" style="display:none;">
+							<i class="small"><img src="https://res15.iblimg.com/respc-1/resources/v3.0/css/i/pay-notice.png" width="14" height="14"></i>
+							<span class="black" >键盘大小写锁定已打开，请注意大小写！</span>
+						</div>
+                    </div>
+                    <div class="login-item clearfix">
+                        <input id="txtbleLoginid" type="text" placeholder="用户名" class="inp inp-primary inp-primaryclick radius">
+                        <i class="newicon"><img src="https://res12.iblimg.com/respc-1/resources/v3.0/css/i/userpic.png"></i>
+                        <div class="prompt-show usepasshow">
+                        	<i><img height="16" width="16" src="https://res13.iblimg.com/respc-1/resources/v3.0/css/i/v-icon-2.png"></i>
+                        	<span id="bleLogin_error_msg">用户名和用户密码不匹配</span>
+                        </div>
+                    </div>
+                    <div class="login-item clearfix">
+                        <input id="txtblePassword" type="password" placeholder="密码" class="inp inp-primary inp-primaryclick radius">
+                        <i class="newicon"><img height="16" width="16" src="https://res14.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png"></i>
+                    </div>
+                    <div name="verCodeDiv" class="login-item clearfix" style="display: none;">
+		            	<input id="bleVerifyCode" placeholder="验证码" class="inp inp-primary inp-primaryclick radius input-w145">
+		                <i class="newicon">
+		                	<img width="16" height="16" src="https://res15.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png">
+		                </i>
+		                <div class="ml-img">
+		                	<img id="bleVerifyCodeImg" width="100" height="36" src=""/>
+		                </div>
+		            </div>
+                    <div class="mt20"><button id="txtbleSubmit" class="btn btn-login btn-primaryclick login-button btn-primary" type="button">授权并登录</button></div>
+                    <div class="pt20-font"><a href="javascript:;">&lt; 返回使用百联通账号登录</a></div>
+				</li>
+				<li style="display:none;">
+                    <div class="login-title">
+                        <div class="login-title-fl">联华易购账号登录</div>
+                    </div>
+                    <div class="mheight">
+                    	<div class="prompt-show" id="lhe_capital" style="display:none;">
+							<i class="small"><img src="https://res12.iblimg.com/respc-1/resources/v3.0/css/i/pay-notice.png" width="14" height="14"></i>
+							<span class="black" >键盘大小写锁定已打开，请注意大小写！</span>
+						</div>
+                    </div>
+                    <div class="login-item clearfix">
+                        <input id="txtlhygLoginId" type="text" placeholder="用户名" class="inp inp-primary inp-primaryclick radius">
+                        <i class="newicon"><img src="https://res13.iblimg.com/respc-1/resources/v3.0/css/i/userpic.png"></i>
+                        <div class="prompt-show usepasshow">
+                        	<i>
+                        		<img height="16" width="16" src="https://res14.iblimg.com/respc-1/resources/v3.0/css/i/v-icon-2.png">
+                        	</i>
+                        	<span id="lhygLogin_error_msg">用户名和用户密码不匹配</span>
+                        </div>
+                    </div>
+                    <div class="login-item clearfix">
+                        <input id="txtlhygPassword" type="password" placeholder="密码" class="inp inp-primary inp-primaryclick radius">
+                        <i class="newicon"><img height="16" width="16" src="https://res15.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png"></i>
+                    </div>
+                    <div name="verCodeDiv" class="login-item clearfix" style="display: none;">
+                        <input id="lhygVerifyCode" type="text" placeholder="验证码" class="inp inp-primary inp-primaryclick radius input-w145">
+                        <i class="newicon">
+                        	<img height="16" width="16" src="https://res12.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png">
+                        </i>
+                        <div class="ml-img">
+                        	<img id="lhygVerifyCodeImg" width="100" height="36" src=""/>
+                        </div>
+                    </div>
+                    <div class="mt20"><button id="btnlhygSubmit" class="btn btn-login btn-primaryclick login-button btn-primary" type="button">授权并登录</button></div>
+                    <div class="pt20-font"><a href="javascript:;">&lt; 返回使用百联通账号登录</a></div>
+				</li>
+            </ul>
+            
+            <div class="login-font-right" style="">
+                <a id="solidCart" href="javascript:void(0);">百联通会员卡首次登录</a>
+            </div>            
+            <div class="other-login">
+            	<div class="other-login-bottom">
+                	<span>其他账号联合登录</span>
+                </div>
+            </div>
+            <div class="login-logo">
+            	<a href="javascript:void(0);" style="background-image:url(https://res13.iblimg.com/respc-1/resources/v3.0/images/login-cion-1.png);"></a>
+                <a href="javascript:void(0);" style="background-image:url(https://res14.iblimg.com/respc-1/resources/v3.0/images/login-cion-2.png);"></a>
+                <a href="javascript:void(0);" style="background-image:url(https://res15.iblimg.com/respc-1/resources/v3.0/images/login-cion-3.png);"></a>
+                <a id="ay" style="background-image:url(https://res12.iblimg.com/respc-1/resources/v3.0/images/login-cion-4.png);" href="http://www.anyolife.com/control/partner?partner=bailian" target="_blank"></a>
+            	<a id="ok" style="background-image:url(https://res13.iblimg.com/respc-1/resources/v3.0/images/login-cion-5.png);" href="http://www.anyolife.com/control/partner?partner=bailian" target="_blank"></a>
+            </div>
+          
+            </div>
+    </div>
+</div>
+<div id="footer" class="footer">
+    <div class="bottom-nav">
+        <div>
+            <a target="_blank" href="http://help.bl.com/articleDetailed.html?articleId=285&&categoryType=about" target="_blank">关于我们</a><span>|</span>
+			<a target="_blank" href="http://help.bl.com/articleDetailed.html?articleId=286&&categoryType=about" target="_blank">联系我们</a><span>|</span>
+			<a target="_blank" href="http://help.bl.com/articleDetailed.html?articleId=287&&categoryType=about" target="_blank">加盟合作</a><span>|</span>
+            <a target="_blank" href="http://help.bl.com/articleDetailed.html?articleId=288&&categoryType=about" target="_blank">诚征英才</a><span>|</span>
+            <a target="_blank" href="http://help.bl.com/articleDetailed.html?articleId=289&&categoryType=about" target="_blank">友情链接</a>
+        </div>
+        <div class="copyright">上海百联全渠道电子商务有限公司 版权所有 <span>|</span> 沪ICP备15028847号</div>
+    </div>
+    <div class="bottom-contact">
+        <p>
+            联系地址：上海市普陀区真光路1258号百联中环广场6楼
+            <span>|</span>
+            联系电话：021-52629933
+            <span>|</span>
+            咨询热线：400-900-8800
+        </p>
+        <p>
+            本企业已通过ISO9001:2000 质量管理体系标准认证
+            <span>|</span>
+            认证注册号：04206Q10079ROM
+            <span>|</span>
+            认可注册号：CNAB042-Q
+            <span>|</span>
+            增值电信业务经营许可证：沪B2-20100062
+            <span style="color: white;">97.33</span>
+        </p>
+    </div>
+</div>
+<script type="text/javascript" src="https://res14.iblimg.com/respc-1/resources/v3.0/js/commons/baidu.js?version=1529597696638"></script><script type="text/javascript" src="https://res15.iblimg.com/respc-1/resources/v4.2/unit/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="https://res12.iblimg.com/respc-1/resources/v4.2/unit/bl.js?version=1529597696638"></script>
+<script type="text/javascript" src="https://res13.iblimg.com/respc-1/resources/v4.2/unit/jsbn.js"></script>
+<script type="text/javascript" src="https://res14.iblimg.com/respc-1/resources/v4.2/unit/prng4.js"></script>
+<script type="text/javascript" src="https://res15.iblimg.com/respc-1/resources/v4.2/unit/rng.js"></script>
+<script type="text/javascript" src="https://res12.iblimg.com/respc-1/resources/v4.2/unit/rsa.js"></script>
+<script type="text/javascript" src="https://res13.iblimg.com/respc-1/resources/v4.2/unit/rsabase64.js"></script>
+<script type="text/javascript" src="https://res14.iblimg.com/respc-1/resources/v4.2/unit/jquery-capslock.js"></script>
+<script type="text/javascript" src="https://res15.iblimg.com/respc-1/resources/v4.2/js/user/login.js?version=1529597696638"></script>
+<script type="text/javascript" src="https://res12.iblimg.com/respc-1/resources/v4.2/js/coremetrics/eluminate.js?version=1529597696638"></script>
+<script type="text/javascript" src="https://res13.iblimg.com/respc-1/resources/v4.2/js/coremetrics/pageInit.js?version=1529597696638"></script>
+<script type="text/javascript" src="https://res14.iblimg.com/respc-1/resources/v4.2/js/coremetrics/pageInfo.js?version=1529597696638"></script>
+
+</body>
+</html>

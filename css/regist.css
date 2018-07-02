@@ -1,0 +1,255 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none;
+  color: #666; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*header*/
+#header {
+  height: 110px; }
+  #header .header-con {
+    width: 905px;
+    height: 110px;
+    margin: 0 auto; }
+    #header .header-con .logo1 {
+      float: left;
+      margin-top: 29px; }
+    #header .header-con .logo2 {
+      float: left;
+      margin-top: 29px; }
+
+/*footer*/
+#footer {
+  padding-top: 30px;
+  clear: both; }
+  #footer .footer-con {
+    min-width: 950px;
+    _width: 950px;
+    margin: 0 auto; }
+    #footer .footer-con .footer-nav {
+      line-height: 24px;
+      text-align: center;
+      padding-top: 10px;
+      color: #ccc; }
+      #footer .footer-con .footer-nav a:hover {
+        color: #ff6f6f; }
+      #footer .footer-con .footer-nav span {
+        padding: 0 10px; }
+      #footer .footer-con .footer-nav .copyright {
+        color: #999; }
+    #footer .footer-con .footer-contact {
+      line-height: 20px;
+      text-align: center;
+      color: #999999;
+      padding: 10px 0px; }
+
+body {
+  background: #f9f9f8; }
+
+/*regist*/
+.regist-con {
+  width: 950px;
+  margin: 0 auto; }
+  .regist-con .regist-center {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #e1dfda; }
+    .regist-con .regist-center .center-top {
+      height: 30px;
+      border-bottom: 1px solid #e1dfda;
+      padding: 10px 20px;
+      line-height: 30px; }
+      .regist-con .regist-center .center-top .title-left {
+        float: left;
+        font-size: 16px;
+        color: #ff002a; }
+      .regist-con .regist-center .center-top .title-right {
+        float: right;
+        color: #63625d; }
+        .regist-con .regist-center .center-top .title-right a {
+          color: #0088cc; }
+    .regist-con .regist-center .center-bottom {
+      height: auto;
+      padding: 50px 0px 74px 191px; }
+      .regist-con .regist-center .center-bottom .regist-user {
+        padding: 10px 0; }
+        .regist-con .regist-center .center-bottom .regist-user .username {
+          float: left;
+          font-size: 15px;
+          color: #333333;
+          width: 136px;
+          text-align: right;
+          line-height: 36px; }
+          .regist-con .regist-center .center-bottom .regist-user .username i {
+            color: #df3d36; }
+        .regist-con .regist-center .center-bottom .regist-user .input-div {
+          float: left;
+          padding-left: 5px;
+          display: inline; }
+          .regist-con .regist-center .center-bottom .regist-user .input-div .login-input {
+            position: relative; }
+            .regist-con .regist-center .center-bottom .regist-user .input-div .login-input input {
+              width: 258px;
+              height: 32px;
+              line-height: 34px;
+              vertical-align: middle;
+              padding: 0 10px 0 30px;
+              text-indent: 0px;
+              font-size: 12px;
+              color: #000;
+              border-radius: 2px;
+              border: 1px solid #cccccc; }
+            .regist-con .regist-center .center-bottom .regist-user .input-div .login-input input:hover {
+              box-shadow: 0px 0px 6px 1px #ccc; }
+            .regist-con .regist-center .center-bottom .regist-user .input-div .login-input .input1 {
+              background: #ffffff url(../images/register.png) no-repeat 10px 9px; }
+        .regist-con .regist-center .center-bottom .regist-user .prompt {
+          float: left;
+          line-height: 36px;
+          margin-left: 10px;
+          display: none; }
+          .regist-con .regist-center .center-bottom .regist-user .prompt i {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 10px; }
+          .regist-con .regist-center .center-bottom .regist-user .prompt span {
+            float: left;
+            padding-left: 6px;
+            margin-left: 8px;
+            display: inline;
+            line-height: 36px; }
+      .regist-con .regist-center .center-bottom .loginPwd .input2, .regist-con .regist-center .center-bottom .loginPwd .input3 {
+        background: url(../images/register.png) no-repeat 10px -52px; }
+      .regist-con .regist-center .center-bottom .loginPwd .length-1 {
+        color: #ffffff;
+        display: inline-block;
+        float: left;
+        height: 20px;
+        line-height: 16px;
+        margin-left: 2px;
+        margin-top: 8px;
+        text-align: center;
+        width: 24px;
+        background: #cccccc none repeat scroll 0% 0%; }
+      .regist-con .regist-center .center-bottom .loginTel .input4 {
+        background: url(../images/register.png) no-repeat 10px -180px; }
+      .regist-con .regist-center .center-bottom .loginR .input5 {
+        background: url(../images/register.png) no-repeat 10px -51px; }
+      .regist-con .regist-center .center-bottom .loginR .register-code {
+        float: left;
+        width: 90px;
+        height: 36px;
+        margin: 0  11px 0 10px;
+        background: pink; }
+      .regist-con .regist-center .center-bottom .loginR .other {
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        color: #706e69; }
+        .regist-con .regist-center .center-bottom .loginR .other a {
+          color: #0084cc;
+          text-decoration: underline; }
+      .regist-con .regist-center .center-bottom .loginCode .input6 {
+        background: url(../images/register.png) no-repeat 10px -51px; }
+      .regist-con .regist-center .center-bottom .loginCode .get-code {
+        float: left;
+        line-height: 36px;
+        margin-left: 10px;
+        color: #999; }
+        .regist-con .regist-center .center-bottom .loginCode .get-code .codeGet {
+          width: 90px;
+          height: 34px;
+          border: 1px solid #c8c8c8;
+          background: #f5f5f5;
+          cursor: pointer; }
+      .regist-con .regist-center .center-bottom .loginEail .input7 {
+        background: url(../images/register.png) no-repeat 10px -287px; }
+      .regist-con .regist-center .center-bottom .login-remeber {
+        height: 25px;
+        padding-left: 140px;
+        line-height: 18px;
+        overflow: hidden;
+        padding-top: 5px;
+        background: #fff; }
+        .regist-con .regist-center .center-bottom .login-remeber i {
+          display: inline-block;
+          width: 11px;
+          height: 11px;
+          float: left;
+          border: 1px solid #55779b;
+          margin-top: 2px; }
+        .regist-con .regist-center .center-bottom .login-remeber span {
+          float: left;
+          margin-left: 24px;
+          display: inline; }
+        .regist-con .regist-center .center-bottom .login-remeber .clicked {
+          background: url(../images/register.png) no-repeat 0 -473px;
+          border: none;
+          width: 13px;
+          height: 13px; }
+        .regist-con .regist-center .center-bottom .login-remeber .agreen {
+          float: left;
+          color: #0088ca; }
+        .regist-con .regist-center .center-bottom .login-remeber label {
+          float: left; }
+      .regist-con .regist-center .center-bottom .regist-btn {
+        padding-left: 134px;
+        height: 36px;
+        overflow: hidden; }
+        .regist-con .regist-center .center-bottom .regist-btn .sub {
+          width: 300px;
+          height: 36px;
+          margin-left: 6px;
+          border-radius: 2px;
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          font-size: 16px;
+          background: #e6133c;
+          color: #fff;
+          border: 0;
+          cursor: pointer; }
+        .regist-con .regist-center .center-bottom .regist-btn .sub:hover {
+          background: #f90c3a; }
+
+/*footer*/
+#footer {
+  padding: 0; }
+  #footer .footer-con {
+    padding-top: 30px;
+    background: url(../images/login-bottom-bg.png) no-repeat top; }

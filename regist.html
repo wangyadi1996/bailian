@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎注册-百联</title>
+		<link rel="stylesheet" href="css/regist.css" />
+	</head>
+	<body>
+		<!--header-->
+		<div id="header">
+			<div class="header-con">
+				 <div class="logo1">
+				 	<img src="images/logon-logo.png" alt="" />
+				 </div>
+				 <div class="logo2">
+				 	<img src="images/V3login-font4.png" alt="" />
+				 </div>
+			</div>
+		</div>
+		<!--regist-->
+		<div class="regist-con">
+			<div class="regist-center">
+				<div class="center-top">
+					<div class="title-left">
+您好，感谢您加入i百联</div>
+					<div class="title-right">
+						如有账号，请点击
+						<a href="login.html">登录</a>
+					</div>
+				</div>
+				<div class="center-bottom">
+					<div class="registed">
+						<form id="formRegiter" action="" method="post">
+							<div class="regist-user clear-fix">
+								<div class="username">
+									<i>*</i>
+									用户名：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="text" id="loginId" class="input1" name="loginId" placeholder="6-20位字符，支持字母或字母与数字组合"/>
+									</div>
+								</div>
+								<ul class="prompt prompt1">
+									<li class="prompt-text" style="display: none;">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>请输入用户名</span>
+									</li>
+									<li class="prompt-error"  style="display: none;">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-correct" style="display: none;">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+								</ul>
+							</div>
+							<div class="regist-user loginPwd clear-fix">
+								<div class="username">
+									<i>*</i>
+									登录密码：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="password" id="loginP" class="input2" name="loginP" placeholder="8-20位字符，至少使用两种字符组合"/>
+									</div>
+								</div>
+								<ul class="prompt prompt2">
+									<li class="prompt-text" style="display: none;">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>密码强度</span>
+										<!-- <i id="lenth-L" class="length-1">弱</i>
+										<i id="lenth-M" class="length-1">中</i>
+										<i id="lenth-H" class="length-1">强</i> -->
+									</li>
+									<!-- <li class="prompt-error" style="display: none;">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span>密码强度</span>
+										<i id="lenth-L" class="length-1">弱</i>
+										<i id="lenth-M" class="length-1">中</i>
+										<i id="lenth-H" class="length-1">强</i>
+									</li> -->
+									<li class="prompt-correct"  style="display: none;">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-caps" style="display: none;">
+										<i>
+											<img src="images/pay-notice.png" alt="" />
+										</i>
+										<span>大写锁定已打开，请注意大小写！</span>
+									</li>
+								</ul>
+							</div>
+							<div class="regist-user loginPwd clear-fix">
+								<div class="username">
+									<i>*</i>
+									确认密码：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="text" id="loginP2" class="input3" name="loginP2" placeholder="请输入确认密码"/>
+									</div>
+								</div>
+								<ul class="prompt prompt3">
+									<li class="prompt-text" style="display: none;">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>请输入确认密码</span>
+									</li>
+									<li class="prompt-error" style="display: none;">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-correct" style="display: none;">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-caps" style="display: none;">
+										<i>
+											<img src="images/pay-notice.png" alt="" />
+										</i>
+										<span>大写锁定已打开，请注意大小写！</span>
+									</li>
+								</ul>
+							</div>
+						<div class="regist-user clear-fix loginTel">
+								<div class="username">
+									<i>*</i>
+									手机号：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="text" id="loginT" class="input4" name="loginT" placeholder="请输入11位手机号码"/>
+									</div>
+								</div>
+								<ul class="prompt prompt4">
+									<li class="prompt-text" style="display: none;">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>请输入手机号</span>
+									</li>
+									<li class="prompt-error" style="display: none;">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-correct" style="display: none;">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+								</ul>
+							</div>
+						<div class="regist-user clear-fix loginR">
+								<div class="username">
+									验证码：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="text" id="loginRe" class="input5" name="loginRe" placeholder="请输入验证码" style="width:153px;"/>
+									</div>
+								</div>
+								<div class="register-code"></div>
+								<lable class="other">
+									<a href="javascript:;">换一张</a>
+								</lable>
+								<ul class="prompt prompt5">
+									<li class="prompt-text">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>请输入验证码</span>
+									</li>
+									<li class="prompt-error">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-correct">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+								</ul>
+							</div>
+							<div class="regist-user clear-fix loginCode">
+								<div class="username">
+									<i>*</i>
+									短信验证码：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="text" id="smsCode" class="input6" name="smsCode" placeholder="请输入短信验证码" style="width:153px;"/>
+									</div>
+								</div>
+								<div class="get-code">
+									<button class="codeGet">获取验证码</button>
+								</div>
+								<ul class="prompt prompt6">
+									<li class="prompt-text">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>请输入短信验证码</span>
+									</li>
+									<li class="prompt-error">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-correct">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+								</ul>
+							</div>
+						<div class="regist-user clear-fix loginEail">
+								<div class="username">
+									电子邮箱：
+								</div>
+								<div class="input-div">
+									<div class="login-input">
+										<input type="text" id="loginE" class="input7" name="loginE" placeholder="请输入有效邮箱"/>
+									</div>
+								</div>
+								<ul class="prompt prompt7">
+									<li class="prompt-text">
+										<i>
+											<img src="images/v-icon-1.png" alt="" />
+										</i>
+										<span>请输入电子邮箱</span>
+									</li>
+									<li class="prompt-error">
+										<i>
+											<img src="images/v-icon-2.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+									<li class="prompt-correct">
+										<i>
+											<img src="images/v-icon-3.png" alt="" />
+										</i>
+										<span></span>
+									</li>
+								</ul>
+							</div>
+						<div class="login-remeber">
+							<lable>
+								<i class="clicked"></i>
+								<span>我已阅读并同意</span>
+							</lable>
+							<a href="#" class="agreen">《百联通会员注册协议》</a>
+						</div>
+						<div class="regist-btn">
+							<button class="sub">立即注册 完成绑定</button>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer">
+			<div class="footer-con">
+				<div class="footer-nav">
+					<div>
+						<a href="#">关于我们</a>
+						<span>|</span>
+						<a href="#">联系我们</a>
+						<span>|</span>
+						<a href="#">加盟合作</a>
+						<span>|</span>
+						<a href="#">诚征英才</a>
+						<span>|</span>
+						<a href="#">友情链接</a>
+					</div>
+					<div class="copyright">
+						百联集团有限公司版权所有
+						<span>|</span>
+						客服电话：400-900-8800
+						<span>|</span>
+						沪ICP备15028847号
+					</div>
+				</div>
+				<div class="footer-contact">
+					<p>
+						联系地址：上海市普陀区真光路1258号百联中环广场6楼
+						<span>|</span>
+						 联系电话：021-52629933
+						 <span>|</span>
+						 咨询热线：400-900-8800 
+					</p>
+					<p>
+						本企业已通过ISO9001:2000 质量管理体系标准认证
+						<span>|</span>
+						认证注册号：04206Q10079ROM
+						<span>|</span>
+						认可注册号：CNAB042-Q
+						<span>|</span>
+						增值电信业务经营许可证：沪B2-20100062 
+					</p>
+				</div>
+			</div>
+		</div>
+		<script src="js/require.js" async="true" defer data-main="js/main_regist"></script>
+	</body>
+</html>

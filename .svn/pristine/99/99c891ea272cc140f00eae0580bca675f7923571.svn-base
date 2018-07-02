@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<!--top-->
+		<div id="top">
+			<div class="top-con">
+				<div class="bl">
+					<div class="text">百联集团旗下全渠道电商平台</div>
+					<b></b>
+				</div>
+				<div class="top-left-con">
+					<div class="top-left">
+						<a href="javascript:;">
+							<span>网站导航</span>
+							<i></i>
+							<span class="left-span" style="width:82px;"></span>
+						</a>	
+					</div>	
+					<div class="left-show">
+						<div class="left-show-dl">
+							<dl>
+								<dd>
+									<a href="#">百联集团官网</a>
+								</dd>
+								<dd>
+									<a href="#">安付宝网</a>
+								</dd>
+								<dd>
+									<a href="#">第一医药</a>
+								</dd>
+								<dd>
+									<a href="#">ok会员卡专区</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div class="msg" style="line-height: 30px;margin-left:20px;width:30px;height:30px;float:left;">
+					<a href="#">消息</a>
+				</div>	
+				<div class="top-right">
+					<ul>
+						<li class="user-not-login">
+							<a href="javascript:;" target="_blank">
+								<i></i>
+								<span>请登录</span>
+							</a>
+							<a href="javascript:;" target="_blank">注册</a>
+							<b></b>
+						</li>
+						<li class="user-login-in">
+							<!-- 此处显示登录后的信息 -->
+						</li>
+						<li>
+							<div class="user-dingdan">
+								<a href="#" target="_blank">我的订单</a>
+							</div>
+							<b></b>
+						</li>
+						<li class="user-bailian">
+							<div class="user-bl">
+								<a href="#" target="_blank">
+									<span>我的百联</span>
+									<i></i>
+								</a>
+							</div>
+							<span class="left-span" style="width:82px;"></span>
+							<b></b>
+							<div class="divshow">
+								<dd class="show">
+									<dl>
+										<a href="#">我的订单</a>
+									</dl>
+									<dl>
+										<a href="#">我的评价</a>
+									</dl>
+									<dl>
+										<a href="#">我的积分</a>
+									</dl>
+									<dl>
+										<a href="#">我的收藏</a>
+									</dl>
+									<dl>
+										<a href="#">我的优惠券</a>
+									</dl>
+								</dd>
+							</div>
+						</li>
+						<li class="user-bailian recharge">
+							<div class="user-bl">
+								<a href="#" target="_blank">
+									<span>充值缴费</span>
+									<i></i>
+								</a>
+							</div>
+							<span class="left-span" style="width:82px;"></span>
+							<b></b>
+							<div class="divshow recharge-show">
+								<dl class="show recharge-show2">
+									<dd style="border-left:0;">
+										<div class="pay-title">影娱生活</div>
+										<div class="pay-list">
+											<a href="#">咪咕电影卡</a>
+										</div>
+									</dd>
+									<dd>
+										<div class="pay-title">水电煤缴费</div>
+										<div class="pay-list">
+											<a href="#">缴费首页</a>
+											<a href="#">水费缴费</a>
+											<a href="#">电费缴费</a>
+											<a href="#">燃气缴费</a>
+										</div>
+									</dd>
+									<dd>
+										<div class="pay-title">手机充值</div>
+										<div class="pay-list">
+											<a href="#">手机充值</a>
+											<a href="#">流量充值</a>
+											<a href="#">更多充值</a>
+										</div>
+									</dd>
+									<dd>
+										<div class="pay-title">其他缴费</div>
+										<div class="pay-list">
+											<a href="#">固话/宽带充值</a>
+											<a href="#">铁通缴费</a>
+											<a href="#">有线电视缴费</a>
+										</div>
+									</dd>
+									<dd>
+										<div class="pay-title">游戏点卡</div>
+										<div class="pay-list">
+											<a href="#">腾讯Q币充值</a>
+											<a href="#">盛大点券充值</a>
+											<a href="#">游戏中心</a>
+											<a href="#">更多游戏</a>
+										</div>
+									</dd>
+									<dd>
+										<div class="pay-title">其他险种</div>
+										<div class="pay-list">
+											<a href="#">车险</a>
+										</div>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="user-bailian serve">
+							<div class="user-bl">
+								<a href="#" target="_blank">
+									<span>客户服务</span>
+									<i></i>
+								</a>
+							</div>
+							<b></b>
+							<span class="left-span" style="width:82px;"></span>
+							<div class="divshow serve-show">
+								<dd class="show serve-show2">
+									<dl>
+										<a href="#">在线客服</a>
+									</dl>
+									<dl>
+										<a href="#">帮助中心</a>
+									</dl>
+								</dd>
+							</div>
+						</li>
+						<li class="user-bailian palm">
+							<div class="user-bl">
+								<a href="#" target="_blank">
+									<span>掌上百联</span>
+									<i></i>
+								</a>
+							</div>
+							<b></b>
+							<span class="left-span" style="width:82px;"></span>
+							<div class="divshow code">
+								<div class="code-con">
+									<a href="#" class="code-img">
+										<img src="images/1849148942.png" alt="" />
+									</a>
+									<span class="bl-title">i百联APP</span>
+									<span class="bl-msg">手机购物更方便</span>
+								</div>	
+							</div>
+						</li>
+						<li>
+							<div class="user-bl">
+								<a href="#" target="_blank">
+									<span>购物车</span>
+								</a>
+							</div>
+							<b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--header-->
+		<div class="header-con">
+			<div class="logo">
+				<h1 class="logo1">
+					<img src="images/header-logo.png" alt="" />
+				</h1>
+				<div class="logo2">
+					<img src="images/267878598.png.jpg" alt="" />
+				</div>
+			</div>
+			<div class="header-right">
+				<div class="search-top">
+					<div class="input-search">
+						<div class="indiv">
+							<input type="text" placeholder="巴黎水" value="" id="ser-input" class="search-input"/>
+						</div>
+					</div>
+					<div class="search-button">
+						<button type="submit">搜索</button>
+					</div>
+				</div>
+				<div class="afb">
+					<a href="#">安付宝ok卡专区</a>
+				</div>
+			</div>
+		</div>
+		<!--nevigate未加鼠标滑过效果-->
+		<div class="nevigate-con">
+			<div class="doudou"></div>
+			<div class="nav-left">
+				<div class="nav-leftTop">
+					<i></i>
+					<a href="#">
+						<span>所有商品分类</span>
+					</a>
+				</div>
+				<div class="nav-show">
+					<div class="int-nav">
+						<ul>
+							<li>
+								<i class="jinkou"></i>
+								<span>
+									<a href="#">百联进口 全球购</a>
+								</span>
+							</li>
+							<li>
+								<i class="shengxian"></i>
+								<span>
+									<a href="#">生鲜食品</a>
+								</span>
+							</li>
+							<li>
+								<i class="shipin"></i>
+								<span>
+									<a href="#">食品粮油</a>
+									<a href="#">酒水冲饮</a>
+								</span>
+							</li>
+							<li>
+								<i class="meirong"></i>
+								<span>
+									<a href="#">美容护理</a>
+								</span>
+							</li>
+							<li>
+								<i class="jiaju"></i>
+								<span>
+									<a href="#">餐厨用具 家居家装</a>
+								</span>
+							</li>
+							<li>
+								<i class="muying"></i>
+								<span>
+									<a href="#">母婴玩具</a>
+								</span>
+							</li>
+							<li>
+								<i class="zhi"></i>
+								<span>
+									<a href="#">家清 纸品 一次性</a>
+								</span>
+							</li>
+							<li>
+								<i class="fuang"></i>
+								<span>
+									<a href="#">女装男装</a>
+								</span>
+							</li>
+							<li>
+								<i class="xiangbao"></i>
+								<span>
+									<a href="#">鞋靴箱包</a>
+									<a href="#">珍珠饰品</a>
+								</span>
+							</li>
+							<li>
+								<i class="phone"></i>
+								<span>
+									<a href="#">手机数码</a>
+									<a href="#">电脑办公</a>
+								</span>
+							</li>
+							<li>
+								<i class="jiadian"></i>
+								<span>
+									<a href="#">家用电器</a>
+								</span>
+							</li>
+							<li>
+								<i class="car"></i>
+								<span>
+									<a href="#">运动户外</a>
+									<a href="#">汽车用品</a>
+								</span>
+							</li>
+							<li>
+								<i class="yiyao"></i>
+								<span>
+									<a href="#">医疗保健</a>
+									<a href="#">第一医药</a>
+								</span>
+							</li>
+							<li>
+								<i class="books"></i>
+								<span>
+									<a href="#">礼品卡</a>
+									<a href="#">充值</a>
+									<a href="#">图书</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="nav-right">
+				<ul>
+					<li>
+						<a href="#">生活日用</a>
+					</li>
+					<li>
+						<a href="#">24H百货</a>
+					</li>
+					<li>
+						<a href="#">全球购</a>
+					</li>
+					<li>
+						<a href="#">精品闪购</a>
+					</li>
+					<li>
+						<a href="#">电器城</a>
+					</li>
+					<li>
+						<a href="#">奥莱代购</a>
+					</li>
+					<li>
+						<a href="#">百联卡</a>
+					</li>
+					<li>
+						<a href="#">百联到家</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/1720329693.png" alt="" height="35" style="float: left;"/>	
+							<span style="float: left; display: block;">兜来花</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--banner-->
+		<div id="banner">
+			<div class="banner-con">
+				<div class="banner-right">
+					<div class="banner-top1">
+						<div class="ban-person">
+							<img src="images/userpic001.png" alt="" />
+						</div>
+						<div class="ban-txt">
+							<span>Hi,欢迎来到百联</span>
+							<p class="ban-login">
+								<a href="#">登录</a>
+								<a href="#">注册</a>
+							</p>
+						</div>
+					</div>
+					<div class="ban-gift"></div>
+				</div>
+			</div>
+		</div>
+		<!--czt-->
+		<div class="czt-con">
+			<div class="czt-left"></div>
+			<div class="czt-right"></div>
+		</div>
+		<!--new-tm-->
+		<div class="new-tm-con">
+			<div class="new-tm-left"></div>
+			<div class="new-tm-right"></div>
+		</div>
+		<!--floor1-->
+		<div class="floor1-con">
+			<h3 class="floor1-txt">生鲜果蔬</h3>
+			<div class="floor1-left"></div>
+			<div class="floor1-right"></div>
+		</div>
+		<!--floor2-->
+		<div class="floor2-con">
+			<h3 class="floor1-txt">食品饮料酒</h3>
+			<div class="floor1-left floor2-left"></div>
+			<div class="floor1-right floor2-right"></div>
+		</div>
+		<!--floor3-->
+		<div class="floor3-con">
+			<h3 class="floor1-txt">时尚大牌</h3>
+			<div class="floor1-left floor3-left"></div>
+			<div class="floor1-right floor3-right"></div>
+		</div>
+		<!--floor4-->
+		<div class="floor4-con">
+			<h3 class="floor1-txt">精品百货</h3>
+			<div class="floor1-left floor4-left"></div>
+			<div class="floor1-right floor4-right"></div>
+		</div>
+		<!--floor5-->
+		<div class="floor5-con">
+			<h3 class="floor1-txt">个护清洁</h3>
+			<div class="floor1-left floor5-left"></div>
+			<div class="floor1-right floor5-right"></div>
+		</div>
+		<!--floor6-->
+		<div class="floor6-con">
+			<h3 class="floor1-txt">母婴玩具</h3>
+			<div class="floor1-left floor6-left"></div>
+			<div class="floor1-right floor6-right"></div>
+		</div>
+		<!--floor7-->
+		<div class="floor7-con">
+			<h3 class="floor1-txt">3C数码</h3>
+			<div class="floor1-left floor7-left"></div>
+			<div class="floor1-right floor7-right"></div>
+		</div>
+		<!--likes-->
+		<div class="likes-con"></div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bottom-con"></div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>

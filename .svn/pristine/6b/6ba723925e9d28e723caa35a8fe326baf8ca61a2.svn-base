@@ -1,0 +1,76 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{font-family: 'Microsoft YaHei';font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration:none;}
+img{border:0;display:block;}
+ul,ol,li{list-style:none;}
+input{outline:none;}
+.clear-fix:after{content:".";clear:both;display:block;height:0;overflow: hidden;visibility: hidden;}
+.top-con,.header-con,.nevigate-con,.banner-con,.czt-con,.new-tm-con,.floor1-con,.floor2-con,.floor3-con,.floor4-con,.floor5-con,.floor6-con,.floor7-con,.likes-con,.bottom-con{width:1190px;margin:0 auto;}
+
+/*top*/
+#top{height:30px;background:#f7f7f7;border-top:1px solid #fff;border-bottom:1px solid #e9e9e9;color:#666;}
+.top-con{height:30px;background:yellowgreen;font-size:12px;}
+.top-con .bl{width:auto;float:left;background:url(../images/bl_logo_m.png) no-repeat 2px center;padding:0 12px 0 18px;position:relative;}
+.bl .text{width:156px;height:30px;color:#8d8d8d;line-height:30px;float:left;}
+.bl b{display: block;width:1px;height:12px;background:url(../images/tools1200_sprite.png) no-repeat 0 -28px;float: left;position: absolute;top:9px;right:-1px;}
+.top-con .top-left{float:left;width:70px;height:30px;border-left:1px solid transparent;border-right:1px solid transparent;line-height:30px;padding-left:10px;}
+.top-left a{color:#666;display: block;width:62px;height:30px;color:#666;padding:0 10px;}
+.top-left a span{float:left;}
+.top-left a i{background:url(../images/tools1200_sprite.png) no-repeat 0 -40px;float:left;width:7px;height:4px;margin:13px 0 0 7px;}
+.top-con .msg{width:30px;height:30px;margin-left:10px;line-height:30px;float:left;}
+.top-con .msg a{color:#666;}
+.top-con .msg:hover a{color:#ff6f6f;}
+.top-con .top-right{width:577px;height:30px;background:yellow;float:right;}
+.top-right .user-login i{background:url(../images/)}
+
+
+
+
+
+
+
+/*header*/
+.header-con{height:96px;background:orange;}
+/*nevigate*/
+.nevigate-con{height:35px;background:pink;position:relative;}
+.nevigate-con .nav-show{width:190px;height:432px;position:absolute;left:0;top:35px;background:#151515;opacity: 0.75;filter:alpha(opacity:75);z-index: 2;}
+/*banner*/
+#banner{height:430px;background:;}
+.banner-con{height:430px;background:yellow;position:relative;}
+.banner-con .banner-right{width:215px;height:420px;position:absolute;right:0;top:5px;background:deeppink;}
+/*czt*/
+.czt-con{height:250px;background:greenyellow;margin-top:20px;}
+.czt-con .czt-left{width:224px;height:250px;background:burlywood;float: left;}
+.czt-right{width:965px;height:248px;border:1px solid #e4e4e4;float:right;border-left:none;overflow: hidden;background:darkred;}
+/*new-tm*/
+.new-tm-con{height:370px;margin-top:20px;background:orange;}
+.new-tm-left{width:305px;height:370px;background:yellowgreen;float:left;overflow: hidden;}
+.new-tm-right{width:885px;height:370px;background:hotpink;float:left;}
+/*floor1*/
+.floor1-con{height:514px;margin-top:20px;margin-bottom:20px;background:forestgreen;}
+.floor1-txt{height:50px;font-weight:900;color:#333;font-size:26px;overflow: hidden;line-height: 50px;}
+.floor1-left{width:306px;height:464px;overflow: hidden;float:left;background:cornflowerblue;}
+.floor1-right{width:883px;height:461px;background:#fff;border-top:2px solid #e4e4e4;border-bottom:1px solid #e4e4e4;border-right:1px solid #e4e4e4;float:right;}
+/*floor2*/
+.floor2-con{height:514px;background:green;margin-bottom:20px;}
+.floor2-left{background:palevioletred;}
+/*floor3*/
+.floor3-con{height:514px;margin-bottom:20px;background:blueviolet;}
+.floor3-left{background:pink;}
+/*floor4*/
+.floor4-con{height:514px;background:orange;margin-bottom:20px;}
+/*floor5*/
+.floor5-con{height:514px;background:greenyellow;margin-bottom:20px;}
+/*floor6*/
+.floor6-con{height:514px;background:olivedrab;margin-bottom:20px;}
+/*floor7*/
+.floor7-con{height:514px;background:lightskyblue;margin-bottom:20px;}
+/*likes*/
+.likes-con{width:1200px;height:2040px;background:darkcyan;}
+/*bottom*/
+#bottom{height:362px;padding-top:30px;background: #f3f3f3;}
+.bottom-con{height:362px;background:yellow;}

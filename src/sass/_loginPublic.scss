@@ -1,0 +1,48 @@
+/*header*/
+#header{
+    height:110px;
+    .header-con{
+        width:905px;
+        height:110px;
+        margin:0 auto;
+        .logo1{
+            float:left;
+            margin-top:29px;
+        }
+        .logo2{
+            float:left;
+            margin-top:29px;
+        }
+    }
+}
+/*footer*/
+#footer{
+    padding-top:30px;
+    clear:both;
+    .footer-con{
+        min-width: 950px;
+        _width:950px;
+        margin:0 auto;
+        .footer-nav{
+            line-height:24px;
+            text-align: center;
+            padding-top:10px;
+            color:#ccc;
+            a:hover{
+                color:#ff6f6f;
+            }
+            span{
+                padding:0 10px;
+            }
+            .copyright{
+                color:#999;
+            }
+        }
+        .footer-contact{
+            line-height: 20px;
+            text-align: center;
+            color: #999999;
+            padding: 10px 0px;
+        }
+    }
+}
